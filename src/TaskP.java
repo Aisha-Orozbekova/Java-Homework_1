@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Task16 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int h1 = scanner.nextInt(); // first moment of time
+        int m1 = scanner.nextInt();
+        int s1 = scanner.nextInt();
+
+        int h2 = scanner.nextInt(); // second moment of time
+        int m2 = scanner.nextInt();
+        int s2 = scanner.nextInt();
+
+        int totalSeconds1 = h1 * 3600 + m1 * 60 + s1;
+        int totalSeconds2 = h2 * 3600 + m2 * 60 + s2;
+        int difference = totalSeconds2 - totalSeconds1;
+        System.out.println(difference);
+
+
+
+    }
+}

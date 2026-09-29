@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task16 {
+public class TaskP {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int h1 = scanner.nextInt(); // first moment of time

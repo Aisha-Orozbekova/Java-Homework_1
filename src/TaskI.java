@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task9 {
+public class TaskI {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int number = Math.abs(scanner.nextInt());

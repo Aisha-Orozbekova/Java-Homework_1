@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Task3 {
+public class TaskC {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt(); // Кол-во школьников
